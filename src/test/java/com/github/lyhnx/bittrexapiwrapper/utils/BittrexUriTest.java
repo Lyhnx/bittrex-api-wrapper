@@ -1,4 +1,4 @@
-package com.github.lyhnx.bittrex.utils;
+package com.github.lyhnx.bittrexapiwrapper.utils;
 
 import static org.junit.Assert.*;
 

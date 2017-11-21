@@ -1,4 +1,4 @@
-package com.github.lyhnx.bittrex.utils.gson;
+package com.github.lyhnx.bittrexapiwrapper.utils.gson;
 
 import java.util.Date;
 import java.util.Calendar;

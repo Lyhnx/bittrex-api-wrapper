@@ -1,4 +1,4 @@
-package com.github.lyhnx.bittrex.utils.gson;
+package com.github.lyhnx.bittrexapiwrapper.utils.gson;
 
 import static org.junit.Assert.*;
 
