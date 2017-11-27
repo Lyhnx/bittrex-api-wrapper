@@ -22,9 +22,11 @@ public class MapUtils {
 	 * <code>null</code> then nothing happens
 	 * 
 	 * @param map
-	 *            map to put the given key value pair
-	 * @param key
-	 * @param value
+	 *            to put the given key value pair
+	 * @param <T>
+	 *            key to put into the map
+	 * @param <Z>
+	 *            value to save
 	 */
 	public static <T, Z> void putNonNull(Map<T, Z> map, T key, Z value) {
 		LOG.debug(format("putNonNull was called [Key=%s, Value=%s]", key, value));

@@ -40,7 +40,7 @@ public class Currency {
 	
 	/**
 	 * Returns the symbol for this currency (ie. 'BTC')
-	 * @return
+	 * @return symbol (ie. 'BTC')
 	 */
 	public String getSymbol() {
 		return symbol;

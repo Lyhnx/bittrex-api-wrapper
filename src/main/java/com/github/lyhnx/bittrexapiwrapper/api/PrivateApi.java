@@ -12,21 +12,21 @@ public abstract class PrivateApi extends BittrexApi {
 	}
 	
 	public PrivateApi(ApiKey apiKey) {
-		this.apiKey = apiKey;
+		this.apiKey = new ApiKey(apiKey.getKey(), apiKey.getSecret());
 	}
 	
 	/**
-	 * Returns the api key used by this api
+	 * Returns a copy of the used api key
 	 * @return api key
 	 */
 	public ApiKey getApiKey() {
-		return apiKey;
+		return new ApiKey(apiKey.getKey(), apiKey.getSecret());
 	}
 	
 	/**
 	 * Calls the {@link BittrexRequest#sign(String)} method before processing the request
 	 * @param request Request to sign and process
-	 * @param clazz target class
+	 * @param <T> target class
 	 * @return parsed response as instance of <code>clazz</code>
 	 */
 	protected <T> T signAndProcess(BittrexRequest request, Class<T> clazz) {

@@ -1,19 +1,16 @@
 package com.github.lyhnx.bittrexapiwrapper.utils;
 
-import static org.junit.Assert.*;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 import org.junit.Test;
 
 import com.github.lyhnx.bittrexapiwrapper.api.ApiKey;
-import com.github.lyhnx.bittrexapiwrapper.api.BittrexApi;
 
-import static com.github.lyhnx.bittrexapiwrapper.utils.BittrexUri.build;
+import static com.github.lyhnx.bittrexapiwrapper.utils.BittrexUri.*;
 import static java.lang.String.format;
+import static org.junit.Assert.*;
 
 public class BittrexUriTest {
 

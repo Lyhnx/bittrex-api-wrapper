@@ -27,7 +27,7 @@ public class BittrexUri {
 	}
 
 	/**
-	 * Creates a URI for the requested api and method =>
+	 * Creates a URI for the requested api and method
 	 * [bittrex-api-url]/[version]/[api]/[method]
 	 * 
 	 * @param api
@@ -42,9 +42,9 @@ public class BittrexUri {
 	}
 	
 	/**
-	 * Creates a URI for the requested api and method =>
-	 * [bittrex-api-url]/[version]/[api]/[method] Since an <code>ApiKey</code>
-	 * is provided it will add the <code>apikey</code> and <code>nonce</code> as
+	 * Creates a URI for the requested api and method
+	 * [bittrex-api-url]/[version]/[api]/[method] <br>
+	 * Since an <code>ApiKey</code> is provided it will add the <code>apikey</code> and <code>nonce</code> as
 	 * well.
 	 * 
 	 * @param api
@@ -53,8 +53,6 @@ public class BittrexUri {
 	 *            String literal representing the methodname
 	 * @param apiKey
 	 *            key is used to build the uri and to create the sign
-	 * @param params
-	 *            URI Parameter
 	 * @return Bittrex API URI
 	 */
 	public static URI build(String api, String method, ApiKey apiKey) {
@@ -62,7 +60,7 @@ public class BittrexUri {
 	}
 	
 	/**
-	 * Creates a URI for the requested api and method =>
+	 * Creates a URI for the requested api and method
 	 * [bittrex-api-url]/[version]/[api]/[method]
 	 * 
 	 * @param api
@@ -97,9 +95,9 @@ public class BittrexUri {
 	}
 
 	/**
-	 * Creates a URI for the requested api and method =>
-	 * [bittrex-api-url]/[version]/[api]/[method] Since an <code>ApiKey</code>
-	 * is provided it will add the <code>apikey</code> and <code>nonce</code> as
+	 * Creates a URI for the requested api and method
+	 * [bittrex-api-url]/[version]/[api]/[method]<br>
+	 * Since an <code>ApiKey</code> is provided it will add the <code>apikey</code> and <code>nonce</code> as
 	 * well.
 	 * 
 	 * @param api

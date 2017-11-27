@@ -56,7 +56,7 @@ public class AccountApi extends PrivateApi {
 	/**
 	 * Used to retrieve the balance from your account for a specific currency. 
 	 * @param currency - <b>[Required]</b> a currency object storing at least the symbol of a valid currency
-	 * @return your balance for <code>currency<code>
+	 * @return your balance for <code>currency</code>
 	 */
 	public Balance getBalance(Currency currency) {
 		notNull(currency, "currency can't be null!");
@@ -70,7 +70,7 @@ public class AccountApi extends PrivateApi {
 	}
 
 	/**
-	 * Used to retrieve an address for a specific currency. If one does not exist, the call will fail and return a <code>DepositAddress</b> instance without address. 
+	 * Used to retrieve an address for a specific currency. If one does not exist, the call will fail and return a <code>DepositAddress</code> instance without address. 
 	 * @param currency - <b>[Required]</b> a currency object storing at least the symbol of a valid currency
 	 * @return your <code>DepositAddress</code> related to the <code>currency</code>.
 	 */

@@ -22,7 +22,7 @@ public class Market {
 
 	/**
 	 * Market to use 
-	 * @param market
+	 * @param market base market (ie. 'Bitcoin' for 'BTC-???')
 	 */
 	public void setMarket(BittrexMarket market) {
 		this.market = market;
@@ -38,7 +38,7 @@ public class Market {
 
 	/**
 	 * Change the underlying currency
-	 * @param currency
+	 * @param currency (ie. ???-currency)
 	 */
 	public void setCurrency(Currency currency) {
 		this.currency = currency;
